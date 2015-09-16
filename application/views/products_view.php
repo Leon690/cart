@@ -11,7 +11,7 @@
                
       echo $result->marca." ";
       echo $result->procesador." ";
-     echo $result->disco_duro."<br>";
+      echo $result->disco_duro."<br>";
     
 }
  ?>   
