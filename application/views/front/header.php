@@ -18,6 +18,7 @@
         <li><a href="#">Portafolio</a></li>
         <li><a href="#">Nosotros</a></li>
         <li><a href="#">Contactenos</a></li>
+        <?php if($total_items=$this->cart->total_items()):?> <li><?=anchor('products/cart', 'Carrito - '.$total_items);?></li> <?php endif; ?>
            
     </ul>
 </div><!-- End Menu -->
